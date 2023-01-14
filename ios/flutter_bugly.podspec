@@ -14,6 +14,7 @@ bugly for flutter
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
+  s.static_framework = true
   s.dependency 'Flutter'
   s.dependency 'Bugly'
   s.platform = :ios, '9.0'
